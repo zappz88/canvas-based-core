@@ -13,8 +13,4 @@ export class StrokeShape extends Shape {
         this.strokeStyle = val;
         return this;
     }
-
-    clear(){
-        this.ctx.clearRect(this.x, this.y, this.width, this.height);
-    }
 }

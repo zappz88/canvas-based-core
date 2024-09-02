@@ -29,4 +29,8 @@ export class StrokeRect extends StrokeShape {
         this.ctx.resetTransform();
         this.ctx.restore();
     }
+
+    clear(){
+        this.ctx.clearRect(this.x, this.y, this.width, this.height);
+    }
 }
