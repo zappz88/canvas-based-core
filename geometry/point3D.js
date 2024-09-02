@@ -1,6 +1,6 @@
 import { Point2D } from "./point2D.js";
 
-export class Point3D {
+export class Point3D extends Point2D {
 
     z;
 
