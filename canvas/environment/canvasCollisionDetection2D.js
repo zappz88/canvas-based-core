@@ -1,4 +1,3 @@
-import { Point2D } from "../../geometry/point2D.js";
 import { CanvasCollisionDetection } from "./canvasCollisionDetection.js";
 
 export class CanvasCollisionDetection2D extends CanvasCollisionDetection {
